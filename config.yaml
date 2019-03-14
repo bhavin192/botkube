@@ -121,6 +121,14 @@ communications:
     channel: 'SLACK_CHANNEL'
     token: 'SLACK_API_TOKEN'
 
+  # Settings for Mattermost
+  mattermost:
+    enabled: false
+    url: 'MATTERMOST_SERVER_URL'                # e.g https://example.com:9243
+    token: 'MATTERMOST_TOKEN'
+    team: 'MATTERMOST_TEAM'
+    channel: 'MATTERMOST_CHANNEL'
+
   # Settings for ELS
   elasticsearch:
     enable: false
